@@ -239,3 +239,26 @@ footer a {
     font-size: 14px;
   }
 }
+
+@media (max-width: 480px ) {
+  .hero img {
+    width: 300px;
+  }
+  .quote {
+    padding: 10px 0;
+    
+  }
+  .quote p,
+  .quote span {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  footer {
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+  }
+  footer p {
+    margin-top: 0;
+  }
+}
