@@ -15,7 +15,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 20px;
+  padding: 30px;
   height: 60px;
 }
 .logos {
@@ -44,7 +44,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding: 60px 50px 80px;
+  padding: 60px 50px 100px;
   gap: 35px;
 }
 
@@ -118,7 +118,7 @@ button {
   border-radius: 6px;
 }
 .info-container img:hover {
-  box-shadow: 0 0 10px 1px blue;
+  box-shadow: 0 0 10px 1px #1f2937;
 }
 
 .quote {
@@ -189,4 +189,18 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
+}
+
+footer a {
+    color: inherit;
+}
+
+.fa-arrow-up {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.fa-arrow-up:hover{
+    color: rgb(199, 197, 197);
 }
