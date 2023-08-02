@@ -42,6 +42,7 @@ header {
 }
 
 .hero {
+  font-family: 'Roboto', sans-serif;
   display: flex;
   justify-content: center;
   align-items: flex-start;
